@@ -1,0 +1,23 @@
+default
+partial alphanumeric_keys modifier_keys
+xkb_symbols "us_alive" {
+    name[Group1]= "U.S. English + international (without dead keys)";
+
+    // based on popular US english layout
+    include "us"
+
+    // activate modifier key to access additional letters
+    include "level3(ralt_switch)"
+
+    // euro sign at 5
+    key <AE05> { [ 5, percent, EuroSign ] };
+
+    // German Umlauts at vowels
+    key <AC01> { [ a, A, U00E4, U00C4 ] };
+    key <AD09> { [ o, O, U00F6, U00D6 ] };
+    key <AD07> { [ u, U, U00FC, U00DC ] };
+
+    // and "Eszett" (for ss)
+    key <AC02> { [ s, S, U00DF ] };
+};
+

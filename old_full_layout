@@ -1,0 +1,72 @@
+
+default
+partial alphanumeric_keys modifier_keys
+xkb_symbols "robert" {
+
+    name[Group1]= "U.S. English - Robert's international (alive)";
+
+    //    include "us"
+
+    // Alphanumeric section
+    key <TLDE> { [ grave, asciitilde, acute ] };
+    key <AE01> { [ 1, exclam, exclamdown ] };
+    key <AE02> { [ 2, at, U2620, U2615 ] };
+    key <AE03> { [ 3, numbersign, U2318, U262E ] };
+    key <AE04> { [ 4, dollar, yen ] };
+    key <AE05> { [ 5, percent, EuroSign, U2030 ] };
+    key <AE06> { [ 6, asciicircum, U00A2 ] };
+    key <AE07> { [ 7, ampersand, U00A3 ] };
+    key <AE08> { [ 8, asterisk, U221E, U2135 ] };
+    key <AE09> { [ 9, parenleft, U00A9, U00AE ] };
+    key <AE10> { [ 0, parenright, U2205, U2260 ] };
+    key <AE11> { [ minus, underscore, U2248, U00B1 ] };
+    key <AE12> { [ equal, plus, multiply, division ] };
+
+    key <AD01> { [ q, Q, U00E0, U00C0 ] };
+    key <AD02> { [ w, W, U00EA, U00CA ] };
+    key <AD03> { [ e, E, U00EB, U00CB ] };
+    key <AD04> { [ r, R, U00E9, U00C9 ] };
+    key <AD05> { [ t, T, U00E8, U00C8 ] };
+    key <AD06> { [ y, Y, U00FB, U00DB ] };
+    key <AD07> { [ u, U, U00FC, U00DC ] };
+    key <AD08> { [ i, I, U00EF, U00CF ] };
+    key <AD09> { [ o, O, U00F6, U00D6 ] };
+    key <AD10> { [ p, P, U00A7, U00B6 ] };
+    key <AD11> { [ bracketleft,  braceleft,  guillemotleft, U2264 ] };
+    key <AD12> { [ bracketright, braceright, guillemotright, U2265 ] };
+
+    key <AC01> { [ a, A, U00E4, U00C4 ] };
+    key <AC02> { [ s, S, U00DF ] };
+    key <AC03> { [ d, D, U00B0, U2202 ] };
+    key <AC04> { [ f, F, U2203, U2211 ] };
+    key <AC05> { [ g, G, U2200, U220F ] };
+    key <AC06> { [ h, H, U220A, U2282 ] };
+    key <AC07> { [ j, J, U00F9, U00D9 ] };
+    key <AC08> { [ k, K, U00EE, U00CE ] };
+    key <AC09> { [ l, L, U00F4, U00D4 ] };
+    key <AC10> { [ semicolon, colon, U230A, U2308 ] };
+    key <AC11> { [ apostrophe, U0022, U230B, U2309 ] };
+    key <BKSL> { [ backslash, bar, notsign, brokenbar ] };
+
+    key <AB01> { [ z, Z, U00E2, U00C2 ] };
+    key <AB02> { [ x, X ] };
+    key <AB03> { [ c, C, ccedilla, Ccedilla ] };
+    key <AB04> { [ v, V, U2228, U222A ] };
+    key <AB05> { [ b, B, U2227, U2229 ] };
+    key <AB06> { [ n, N, U21D2, U21D4] };
+    key <AB07> { [ m, M, mu ] };
+    key <AB08> { [ comma, less, ae, AE ] };
+    key <AB09> { [ period, greater, U0153, U0152 ] };
+    key <AB10> { [ slash, question, questiondown, UFFFD ] };
+
+//    key <LSGT> { [ less, greater, bar, brokenbar ]  };
+
+    // make caps-lock a hyper-left modifier key
+    // mod4 = Super / Win
+    // mod5 = AltGrp ?
+    // key <CAPS> { [ Hyper_L ] };
+    // modifier_map mod2 { Hyper_L };
+
+    include "level3(ralt_switch)"
+};
+

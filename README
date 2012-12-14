@@ -1,0 +1,22 @@
+us_alive - an international keyboard layout without dead keys
+=============================================================
+
+This layout extends the basic US English layout with a few additional
+letters for usage in international texts.
+
+US English was used as the base because of convenient access to
+punctuation and stuff for programming. Dead keys are avoided, to keep
+compatibility to the base layout.
+
+At the moment, only German language is supported, i.e., the letters
+    ä Ä ö Ö ü Ü ß €
+are made available.
+
+
+The file 'us_alive' should be copied to, e.g.,
+    /usr/share/X11/xkb/symbols
+and can be activated from the shell with
+    $ setxkbmap us_alive
+
+--
+Robert Schwarz <mail@rschwarz.net>

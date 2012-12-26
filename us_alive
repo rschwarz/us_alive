@@ -9,8 +9,9 @@ xkb_symbols "us_alive" {
     // activate modifier key to access additional letters
     include "level3(ralt_switch)"
 
-    // euro sign at 5
-    key <AE05> { [ 5, percent, EuroSign ] };
+    // currencies
+    key <AE04> { [ 4, dollar, U00A2, U00A3 ] };
+    key <AE05> { [ 5, percent, EuroSign, U00A5 ] };
 
     // German Umlauts at vowels
     key <AC01> { [ a, A, U00E4, U00C4 ] };
@@ -19,5 +20,22 @@ xkb_symbols "us_alive" {
 
     // and "Eszett" (for ss)
     key <AC02> { [ s, S, U00DF ] };
-};
 
+    // French accents and ligatures
+    key <AD01> { [ q, Q, U00E2, U00C2 ] };
+    key <AB01> { [ z, Z, U00E0, U00C0 ] };
+    key <AC02> { [ s, S, U00E6, U00C6 ] };
+    key <AB03> { [ c, C, U00E7, U00C7 ] };
+    key <AD03> { [ e, E, U00EB, U00CB ] };
+    key <AD08> { [ i, I, U00EF, U00CF ] };
+    key <AD02> { [ w, W, U00E9, U00C9 ] };
+    key <AE03> { [ 3, numbersign, U00EA, U00CA] };
+    key <AC03> { [ d, D, U00E8, U00C8 ] };
+    key <AE08> { [ 8, asterisk, U00EE, U00CE ] };
+    key <AE09> { [ 9, parenleft, U00F4, U00D4 ] };
+    key <AD10> { [ p, P, U0153, U0152 ] };
+    key <AE07> { [ 7, ampersand, U00FB, U00DB] };
+    key <AC07> { [ j, J, U00F9, U00D9 ] };
+    key <AD06> { [ y, Y, U00FF, U0178 ] };
+
+};

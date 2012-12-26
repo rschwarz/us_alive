@@ -8,7 +8,7 @@ url="https://github.com/leethargo/us_alive"
 license=("MIT")
 source=("us_alive")
 noextract=("us_alive")
-md5sums=("44602c458af0a0ede3803ad07bb472cc")
+md5sums=("90672d72952453b53af35704e7e2f64f")
 
 package() {
   cd "$srcdir"

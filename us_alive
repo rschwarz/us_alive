@@ -13,6 +13,9 @@ xkb_symbols "us_alive" {
     key <AE04> { [ 4, dollar, U00A2, U00A3 ] };
     key <AE05> { [ 5, percent, EuroSign, U00A5 ] };
 
+    // symbols
+    key <AC11> { [ apostrophe, quotedbl, U00B0 ] };
+
     // German Umlauts at vowels
     key <AC01> { [ a, A, U00E4, U00C4 ] };
     key <AD09> { [ o, O, U00F6, U00D6 ] };

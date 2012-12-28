@@ -22,7 +22,7 @@ xkb_symbols "us_alive" {
     key <AD07> { [ u, U, U00FC, U00DC ] };
 
     // and "Eszett" (for ss)
-    key <AC02> { [ s, S, U00DF ] };
+    key <AE11> { [ minus, underscore, U00DF ] };
 
     // French accents and ligatures
     key <AD01> { [ q, Q, U00E2, U00C2 ] };

@@ -20,9 +20,9 @@ Additionally, the currencies
 
     ¢ £ € ¥
 
-and scientific symbols
+as well as mathematical and scientific symbols
 
-    °
+    ° ≠ ≈ ≤ ≥ ∪ ∩
 
 are set up.
 

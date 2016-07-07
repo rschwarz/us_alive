@@ -14,7 +14,12 @@ xkb_symbols "us_alive" {
     key <AE05> { [ 5, percent, EuroSign, U00A5 ] };
 
     // symbols
+    key <AE01> { [ 1, exclam, U2260 ] };
     key <AC11> { [ apostrophe, quotedbl, U00B0 ] };
+    key <AE12> { [ equal, plus, U2248 ] };
+    key <AB04> { [ v, V, U222A, U2229 ] };
+    key <AB08> { [ comma, less, U2264 ] };
+    key <AB09> { [ period, greater, U2265 ] };
 
     // German Umlauts at vowels
     key <AC01> { [ a, A, U00E4, U00C4 ] };

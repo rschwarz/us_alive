@@ -12,6 +12,7 @@ xkb_symbols "us_alive" {
     // currencies
     key <AE04> { [ 4, dollar, U00A2, U00A3 ] };
     key <AE05> { [ 5, percent, EuroSign, U00A5 ] };
+    key <AB05> { [ b, B, U0E3F ] };
 
     // symbols
     key <AE01> { [ 1, exclam, U2260 ] };

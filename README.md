@@ -18,7 +18,7 @@ are made available.
 
 Additionally, the currencies
 
-    ¢ £ € ¥
+    ¢ £ € ¥ ฿
 
 as well as mathematical and scientific symbols
 

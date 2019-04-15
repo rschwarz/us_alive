@@ -22,7 +22,7 @@ Additionally, the currencies
 
 as well as mathematical and scientific symbols
 
-    ° ≠ ≈ ≤ ≥ ∪ ∩
+    ° ≠ ≈ ≤ ≥ ∪ ∩ ∘ ← → ⇐ ⇒
 
 are set up.
 

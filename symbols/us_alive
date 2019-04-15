@@ -21,6 +21,9 @@ xkb_symbols "us_alive" {
     key <AB04> { [ v, V, U222A, U2229 ] };
     key <AB08> { [ comma, less, U2264 ] };
     key <AB09> { [ period, greater, U2265 ] };
+    key <AC09> { [ l, L, U2190, U21D0 ] };
+    key <AD04> { [ r, R, U2192, U21D2 ] };
+    key <AC04> { [ f, F, U2218 ] };
 
     // German Umlauts at vowels
     key <AC01> { [ a, A, U00E4, U00C4 ] };

@@ -50,4 +50,6 @@ xkb_symbols "us_alive" {
     key <AC07> { [ j, J, U00F9, U00D9 ] };
     key <AD06> { [ y, Y, U00FF, U0178 ] };
 
+    // subscripts for chemical formulas, superscripts for exponents
+    key <AE02> { [ 2, at, U2082, U00B2] };
 };
